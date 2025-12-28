@@ -1,0 +1,25 @@
+{
+    "name": "io.github.hatayama.uloopmcp-extensions-sample",
+    "version": "0.1.0",
+    "displayName": "uLoopMCP Extensions Sample",
+    "description": "Sample third-party extensions for uLoopMCP demonstrating custom tool development.",
+    "unity": "2022.3",
+    "author": {
+        "name": "hatayama",
+        "url": "https://github.com/hatayama"
+    },
+    "dependencies": {
+        "io.github.hatayama.uloopmcp": "0.48.0"
+    },
+    "keywords": [
+        "uLoopMCP",
+        "MCP",
+        "extension",
+        "sample"
+    ],
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hatayama/uLoopMCP-extensions-sample.git"
+    }
+}
