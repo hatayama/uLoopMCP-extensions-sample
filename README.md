@@ -69,7 +69,6 @@ Use this sample as a reference to create your own extensions.
 ```
 Assets/Editor/
 ├── package.json                  # Required for Unity Package Manager distribution
-├── YourExtension.asmdef          # Assembly Definition (requires uLoopMCP reference)
 └── YourTool/
     ├── YourToolSchema.cs         # Parameter definition
     ├── YourToolResponse.cs       # Response definition
