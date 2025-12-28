@@ -50,6 +50,16 @@ Add the following to your `Packages/manifest.json`:
    - `hello-world` - Returns "Hello World" message
    - `get-unity-info` - Returns Unity version
 
+### Installing Skills (uloop CLI)
+
+This extension includes `SKILL.md` files for each tool. To register them as skills for Claude Code or other AI assistants:
+
+```bash
+uloop skills install --claude
+```
+
+This will install all skills (including bundled and custom ones from your project) into your AI assistant's configuration.
+
 ## Creating Your Own Extension
 
 Use this sample as a reference to create your own extensions.
@@ -63,7 +73,7 @@ Assets/Editor/
     ├── YourToolSchema.cs         # Parameter definition
     ├── YourToolResponse.cs       # Response definition
     ├── YourToolTool.cs           # Tool implementation
-    └── SKILL.md                  # Skill definition (optional)
+    └── SKILL.md                  # Skill definition (for uloop skills install)
 ```
 
 ### Implementation Examples
